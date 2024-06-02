@@ -21,5 +21,17 @@ class DatabaseSeeder extends Seeder
             'email' => 'dimas@fic16.com',
             'password' => Hash::make('12345678'),
         ]);
+
+        //data dummy for company
+        \App\Models\Company::create([
+            'name' => 'PT. ABC',
+            'email' => 'fic16@code.com',
+            'address' => 'Jl. Setro 2 NO. 2 Surabaya, Jatim',
+            'latitude' => '-7.726390',
+            'longitude' => '110.23923',
+            'radius_km' => '0.5',
+            'time_in' => '08:00',
+            'time_out' => '17:00',
+        ]);
     }
 }
