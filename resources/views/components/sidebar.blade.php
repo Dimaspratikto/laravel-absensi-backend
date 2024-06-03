@@ -23,5 +23,14 @@
                     <span>Company</span></a>
             </li>
 
+            <li class="nav-item ">
+                <a href="{{ route('attendances.index') }}" class="nav-link "><i class="fas fa-columns"></i>
+                    <span>Absensi</span></a>
+            </li>
+
+            <li class="nav-item ">
+                <a href="{{ route('permissions.index') }}" class="nav-link "><i class="fas fa-columns"></i>
+                    <span>Permission</span></a>
+            </li>
     </aside>
 </div>
